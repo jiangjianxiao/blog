@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'jjx'
 SITENAME = u'EasyNew'
-SITEURL = ''
+SITEURL = 'http://blog.easynew.com.cn'
 
 TIMEZONE = 'Asia/Shanghai'
 
@@ -30,7 +30,7 @@ SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = 10
-THEME = 'notmyidea'
+# THEME = 'notmyidea'
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True

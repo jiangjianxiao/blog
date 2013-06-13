@@ -36,3 +36,6 @@ git submodule git://github.com/getpelican/pelican-plugins.git
 	cd ../blog
 
 
+THEME 路径必须使用绝对路径
+
+集成disqus 时必须设置SITEURL, 因为article.html 模板中有判断
