@@ -11,7 +11,7 @@ ok, 这是我第一篇 pelican blog
 
 	OUTPUT_PATH = '../jiangjianxao.github.com'
 
-	
+
 
 pelican-plugins 建议用submodule的方法获取
 
@@ -20,5 +20,19 @@ git submodule git://github.com/getpelican/pelican-plugins.git
 然后在其他机器就是git submodule init/git submodule update了
 
 
+
+我的publish.sh::
+
+	pelican -s pelicanconf.py content -o ../jiangjinaxiao.github.com
+
+	git add .
+	git commit -m "update"
+	git push origin master
+
+	cd ../jiangjianxiao.github.com
+	git add . 
+	git commit -m "Update"
+	git push origin master
+	cd ../blog
 
 
