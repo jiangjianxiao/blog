@@ -9,7 +9,7 @@ tornado 服务监测
 ==================
 
 
-ok , 我有在windows 下部署c9. 当前其架构大体是 nginx -> tornado(多个进程) -> proxy - application server(多个进程). 
+ok , 我有在windows 下部署c9. 当前其架构大体是 nginx -> tornado(多个进程) -> proxy - application server(多个进程).  tornado部分是一个简单的rest framework, 主要就是将请求转发个proxy,然后将proxy返回的结果显示给用户. torando部分不包括任何业务逻辑. application server 是真正的业务逻辑点.
 
 但c9第一个版本使用的 nginx -> tornado -application server(成对出现，4个对), 使用py2exe打包
 
