@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # 生成内容
-pelican -s pelicanconf.py content -o ../jiangjinaxiao.github.com
+pelican -s pelicanconf.py content -o ../jiangjianxiao.github.com
 # 提交blog
 git add .
 git commit -m "update"
