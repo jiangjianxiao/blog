@@ -21,7 +21,7 @@ nginx对出错后端的处理是在一个设定的时间内如果出错达到设
 
 nginx把这些请求均匀的分配给tornado后端(当前,部署了4个进程), 其中一个后端出问题了,在前台就是各种表现(比方说明细数据加载不上,或是活动数据加载不上,或是表单头部数据加载不上,或是工作流加载不上或是审核帮助加载不上), 结果就是无法操作.
 
-当前新的架构部分, application server可以自动伸缩了, tornado部分理论上也可以自动伸缩,但是受限于nginx (在nginx.conf中,后端都是配置好的+不能自动剔除后端). 所有,tornado 端的upstream timeout问题一旦发生,就变成一个严重的问题.
+当前新的架构部分, application server可以自动伸缩了, tornado部分理论上也可以自动伸缩,但是受限于nginx (在nginx.conf中,后端都是配置好的+不能自动剔除后端). 所有,tornado 端的upstream timeout问题一旦发生,就变成一个严重的问题. 即: 有业务逻辑的application server可以down, 但无业务逻辑的tornado后端却不能down.
 
 当前,在windows 上尝试使用virtualenv的部署形式, 一个进程就是python app_gevent.pyc ../conf/app_gevent.json的形式, 并使用srvany做成服务.
 
