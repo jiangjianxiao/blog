@@ -2,7 +2,7 @@ extjs 备注
 -----------------------------------------
 
 :date: 2012-06-17 00:00
-:slug: extjs-model-grid-tree
+:slug: extjs-note
 
 1. Store datachanged 对update没有效果, 仅对add/remove有效果, 4.1.1 rc2,所以可能需要同步监听datachanged和update才行
 
