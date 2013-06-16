@@ -9,7 +9,7 @@ AttributeError: 'NoneType' object has no attribute '_sa_instance_state'
 
 简单的处理将是将其转换为列表，如
 
-.. code-blcok:: python
+.. code-block:: python
 
-users=list(session.query(Role).get(1).users)
-pickle.loads(pickle.dumps(users))
+	users = list(session.query(Role).get(1).users)
+	pickle.loads(pickle.dumps(users))
