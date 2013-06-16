@@ -7,6 +7,7 @@ SITENAME = u'EasyNew'
 SITEURL = 'http://blog.easynew.com.cn'
 
 TIMEZONE = 'Asia/Shanghai'
+DISPLAY_PAGES_ON_MENU = True
 
 DEFAULT_LANG = u'zh_CN'
 

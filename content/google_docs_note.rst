@@ -21,6 +21,12 @@ google docs 上有很多好几年前杂乱无章的东西, 打算陆续看一下
 
 错误是没有放弃桌面软件, 没有将精力集中到web, 沉迷于实现axpata类似分布式桌面应用框架, .然已经用python, 但还没有发现python其实是最爱. 还是在定制,执行力不够,拖延症, 目标太大等等!
 
+资源
+===================
+
+* `Ext/Sencha Basic GridComboBox <http://www.boarsoft.com/javascript/gridCombo/>`_
+
+
 
 预分托盘算法
 =======================
