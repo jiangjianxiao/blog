@@ -14,4 +14,3 @@ extjs model同时用于grid和tree的问题
 
 回避的方法是创建两个model,如 SubjectNode/Subject ,一个用于tree,一个用于grid
 
-**此bug可能已经被修正**
