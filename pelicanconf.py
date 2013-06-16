@@ -8,7 +8,7 @@ SITEURL = 'http://blog.easynew.com.cn'
 
 TIMEZONE = 'Asia/Shanghai'
 
-DEFAULT_LANG = u'zhs'
+DEFAULT_LANG = u'zh_CN'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
