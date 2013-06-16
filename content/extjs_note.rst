@@ -43,7 +43,7 @@ extjs 备注
 
 所以,建议传递loaded:true到root来达到按需加载的效果
 
-..code-block:: javascript
+.. code-block:: javascript
 
 	var grid = Ext.create('Ext.tree.Panel', {
 		rootVisible: false,
