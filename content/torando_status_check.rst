@@ -7,7 +7,7 @@ tornado 服务监测
 真正的原因
 ======================
 
-下面的都不用看了， 真正的原因应该就是， 我在tornado处理DELETE请求时鬼马的有一行ctx.term(), 结果在并发时(同时多个DELETE请求, 如果这个前提没有，就不会有问题)，除了第一个请求，后面通过该ctx的socket都接收不到异步返回，直接导致zmq违例。而tornado+pyzmq时tornado的eventloop由 pyzmq代理的。结果就是tornado后端直接无法访问。
+下面的都不用看了， 真正的原因应该就是， 我在tornado处理DELETE请求时鬼马的有一行ctx.term(), 结果在并发时(同时多个DELETE请求分配到一个tornado后端, 由于有多个tornado进程，所以这个概率会比较笑。 如果这个没有前提，就不会有问题)，除了第一个请求，后面通过该ctx的socket都接收不到异步返回，直接导致zmq违例。而tornado+pyzmq时tornado的eventloop由 pyzmq代理的。结果就是tornado后端直接无法访问。
 
 同tornado windows下的表现应该无关，等待这几天验证， 但应该不会差了。
 
