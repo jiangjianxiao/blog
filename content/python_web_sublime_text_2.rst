@@ -183,6 +183,6 @@ git
 =================================
 
 * `怎么编辑注释和增加新行同时保持注释闭合 <http://www.sublimetext.com/forum/viewtopic.php?f=2&t=7137>`_
-* `更好的 restructed/markdown 语法高亮支持 <http://www.sublimetext.com/forum/viewtopic.php?f=2&t=7153>'_
+* `更好的 restructed/markdown 语法高亮支持 <http://www.sublimetext.com/forum/viewtopic.php?f=2&t=7153>`_
 * 在 Sublime 窗口运行 Plone 或者单元测试，用鼠标点击可以跟踪到相关的错误
 
