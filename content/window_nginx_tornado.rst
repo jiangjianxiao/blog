@@ -18,7 +18,7 @@ windows 下nginx和tornado 配置
 2. worker_connections 1024就行，因为select有限制
 
 
-..code-block:: 
+.. code-block:: 
 
 	#user  nobody;
 
@@ -123,7 +123,7 @@ windows 下nginx和tornado 配置
 
 
 延伸: 关于worker_processes/worker_connections
-=======================================
+=========================================================
 
 默认为1024
 
