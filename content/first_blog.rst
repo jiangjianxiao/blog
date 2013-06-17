@@ -4,6 +4,16 @@ ok, 这是我第一篇 pelican blog
 :date: 2013-06-12 04:12
 :slug: first-blog 
 
+自定义菜单
+====================================
+
+通过以下三个选项自定义菜单
+
+.. code-block:: python
+
+DISPLAY_PAGES_ON_MENU = False
+DISPLAY_CATEGORIES_ON_MENU = False
+MENUITEMS = (('未分类', 'category/misc.html'), ('关于我们', 'about_us.html'), )
 
 建议你建两个同级目录，比方说就是jiangjianxiao.github.com和blog, blog用来存放pelican建立的站点, jiangjianxiao.github.com 就是pelican的原始内容
 

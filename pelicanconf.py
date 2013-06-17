@@ -5,30 +5,31 @@ from __future__ import unicode_literals
 AUTHOR = u'jjx'
 SITENAME = u'EasyNew'
 SITEURL = 'http://blog.easynew.com.cn'
-
+GITHUB_URL = "https://github.com/jiangjianxiao/"
 TIMEZONE = 'Asia/Shanghai'
-# DISPLAY_PAGES_ON_MENU = True
-
-DEFAULT_LANG = u'zh'
+DISPLAY_PAGES_ON_MENU = False
+DISPLAY_CATEGORIES_ON_MENU = False
+MENUITEMS = (('未分类', 'category/misc.html'), ('关于我们', 'about_us.html'), )
+# Blogroll
+DEFAULT_LANG = u'en'
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
+FEED_ALL_ATOM = "feeds/all.atom.xml"
+CATEGORY_FEED_ATOM = "feeds/%s.atom.xml"
 TRANSLATION_FEED_ATOM = None
 
 OUTPUT_PATH = '../jiangjianxao.github.com'
 
 DISQUS_SITENAME = u"easynew"
 
-# Blogroll
 LINKS =  (('Pelican', 'http://getpelican.com/'),
           ('Python.org', 'http://python.org/'),
           ('Jinja2', 'http://jinja.pocoo.org/'),
           ('余姚程序员社区', 'http://www.yuyaoe.com'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+# SOCIAL = (('You can add links in your config file', '#'),
+          # ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = 10
 # THEME = 'notmyidea'
