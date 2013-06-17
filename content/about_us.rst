@@ -23,7 +23,7 @@ python 经验
 
 欢迎就python为主的项目开展合作，个人python经验：
 
-* 对twisted/gevent/torando等高并发框架有深入了解,对django/flask/bottle/webpy等web框架均有项目经验或涉猎。
+* 对twisted/gevent/tornado等高并发框架有深入了解,对django/flask/bottle/webpy等web框架均有项目经验或涉猎。
 * 对sqlalchemy有深入了解， 深入了解postgresql/sqlserver /mysql，目前以postgresql为主要开发数据库
 * 对sencha extjs/touch 有深入了解，由于有丰富的桌面开发经验(vb6/windows forms/pb/delphi等)，对spa类应用特为擅长
 * 对zeromq有深入了解
@@ -37,5 +37,5 @@ python 经验
 	电话: 0574-22686826
 
 	gmail/gtalk: jiangjianxiao@gmail.com
-	
+
 	联系人: 蒋先生
