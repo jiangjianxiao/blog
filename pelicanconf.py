@@ -9,7 +9,7 @@ SITEURL = 'http://blog.easynew.com.cn'
 TIMEZONE = 'Asia/Shanghai'
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
-MENUITEMS = (('未分类', 'category/misc.html'), ('关于我们', 'about-us.html'), )
+MENUITEMS = (('未分类', 'category/misc.html'),('C9', 'category/c9.html'), ('关于我们', 'about-us.html'), )
 # Blogroll
 DEFAULT_LANG = u'en'
 
