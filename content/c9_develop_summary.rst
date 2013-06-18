@@ -49,7 +49,7 @@ c9 是一个进销存软件，他主要包括如下功能
 
 这个系统完全是用sublime text2开发，基本上属于没有测试就上线的，对于c#/java之类的开发者，没有编译，没有编辑器的检查， 你有底吗？事实上，开始一两天的两个错误对数据造成影响的错误，都无法用编译检查的，都是输入错误，但代码是合法的，   如  
 
-..code-block:: python
+.. code-block:: python
 	update_on_hand_on_road      #应该是update_on_hand
 	payable = receivable or 0   #应该是payable = payable or 0
 

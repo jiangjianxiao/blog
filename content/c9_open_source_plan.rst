@@ -16,10 +16,10 @@ C9 的0.3 版本将是一个第三方扩展完备的版本, `参考版本规划 
 当前
 ====================
 
-* C9 的文档, 开源, `参考 <https://github.com/jiangjianxiao/c9>`_  `build <http://www.yuyaoe.com/static/html/index.html>`
-* C9 返修模块, 开源,正在开发中 `参考 <https://github.com/jiangjianxiao/c9_repair>`
-* C9 c proxy模块, 开源 `链接 <https://github.com/jiangjianxiao/wuproxy>`
-* c9 tornado服务监控程序 `链接 <https://github.com/jiangjianxiao/servicemonitor>`
+* C9 的文档, 开源, `参考 <https://github.com/jiangjianxiao/c9>`_  `文档build <http://www.yuyaoe.com/static/html/index.html>`_
+* C9 返修模块, 开源,正在开发中 `返修模块 <https://github.com/jiangjianxiao/c9_repair>`_
+* C9 c proxy模块, 开源 `proxy模块 <https://github.com/jiangjianxiao/wuproxy>`_
+* c9 tornado服务监控程序 `tornado服务监控程序 <https://github.com/jiangjianxiao/servicemonitor>`_
 
 未来, 我们将逐步打碎C9, 逐步开放其销售,采购,库存,财务等模块, 最终到达全部开源的目的
 
