@@ -4,6 +4,23 @@ extjs 备注
 :date: 2012-06-17 00:00
 :slug: extjs-note
 
+设置form所有字段只读
+=========================
+
+.. code-block:: javascript
+
+	Ext.form.Panel.override({
+	 
+	  setReadOnlyForAll: function(readOnly) {
+	    Ext.suspendLayouts();
+	    this.getForm().getFields().each(function(field) {
+	      field.setReadOnly(readOnly);
+	    });
+	    Ext.resumeLayouts();
+	  }
+	});
+
+
 1. Store datachanged 对update没有效果, 仅对add/remove有效果, 4.1.1 rc2,所以可能需要同步监听datachanged和update才行
 
 2. Store.loadData,就我个人而言应该设置isLoading返回true,但显然extjs 没有这样做
