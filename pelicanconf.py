@@ -9,7 +9,9 @@ SITEURL = 'http://blog.easynew.com.cn'
 TIMEZONE = 'Asia/Shanghai'
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
-MENUITEMS = (('misc', '/category/misc.html'),('c9', '/category/c9.html'), ('about us', '/about-us.html'), )
+MENUITEMS = (('misc', '/category/misc.html'), (
+    'c9', '/category/c9.html'), ('about us', '/about-us.html'),
+    (u'余姚程序员社区', 'http://www.yuyaoe.com') )
 # Blogroll
 DEFAULT_LANG = u'en'
 
@@ -22,10 +24,10 @@ OUTPUT_PATH = '../jiangjianxao.github.com'
 
 DISQUS_SITENAME = u"easynew"
 
-LINKS =  (('Pelican', 'http://getpelican.com/'),
-          ('Python.org', 'http://python.org/'),
-          ('Jinja2', 'http://jinja.pocoo.org/'),
-          ('余姚程序员社区', 'http://www.yuyaoe.com'),)
+LINKS = (('Pelican', 'http://getpelican.com/'),
+        ('Python.org', 'http://python.org/'),
+        ('Jinja2', 'http://jinja.pocoo.org/'),
+        ('余姚程序员社区', 'http://www.yuyaoe.com'),)
 
 # Social widget
 # SOCIAL = (('You can add links in your config file', '#'),
@@ -35,12 +37,12 @@ DEFAULT_PAGINATION = 6
 # THEME = 'notmyidea'
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+# RELATIVE_URLS = True
 PLUGIN_PATH = u"pelican-plugins"
 
 PLUGINS = ["sitemap"]
 
-## 配置sitemap 插件
+# 配置sitemap 插件
 SITEMAP = {
     "format": "xml",
     "priorities": {
