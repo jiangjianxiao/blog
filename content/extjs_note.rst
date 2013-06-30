@@ -20,6 +20,22 @@ extjs 备注
 	  }
 	});
 
+通过override 设置缺省值
+============================
+
+血的教训, 如果你要将所有窗体都设置frame为true, 不要每个form都去设置, 而是使用
+
+.. code-block:: javascript
+
+	Ext.form.Panel.override({
+		bodyPadding: 10,
+		frame: false // or true
+	
+	});
+
+extjs 4.2 海皇星主题,frame 将是很粗的一根, 而且当form被嵌入到其他容器时,除了这个很粗的框, 背景没有同容器一样, 所以在该主题中frame应该设置为false
+
+
 
 1. Store datachanged 对update没有效果, 仅对add/remove有效果, 4.1.1 rc2,所以可能需要同步监听datachanged和update才行
 
