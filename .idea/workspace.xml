@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="533b9d67-b438-4821-b797-b32a2fc4ae40" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/extjs_note.rst" afterPath="$PROJECT_DIR$/content/extjs_note.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/google_docs_note.rst" afterPath="$PROJECT_DIR$/content/google_docs_note.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/clojure_note.rst" afterPath="$PROJECT_DIR$/content/clojure_note.rst" />
     </list>
     <ignored path="blog.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="533b9d67-b438-4821-b797-b32a2fc4ae40" time="1372570524823" ignored="false" />
-    <file path="/clojure_note.rst" changelist="533b9d67-b438-4821-b797-b32a2fc4ae40" time="1372578325939" ignored="false" />
+    <file path="/clojure_note.rst" changelist="533b9d67-b438-4821-b797-b32a2fc4ae40" time="1372578771072" ignored="false" />
     <file path="/google_docs_note.rst" changelist="533b9d67-b438-4821-b797-b32a2fc4ae40" time="1372572437796" ignored="false" />
     <file path="/my_framework_viewpoint.rst" changelist="533b9d67-b438-4821-b797-b32a2fc4ae40" time="1372578126290" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,7 +31,7 @@
       <file leaf-file-name="clojure_note.rst" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/content/clojure_note.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="51" selection-start="147" selection-end="147" vertical-scroll-proportion="0.11440678">
+            <state line="10" column="169" selection-start="346" selection-end="346" vertical-scroll-proportion="0.20974576">
               <folding />
             </state>
           </provider>
@@ -304,7 +303,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/content/clojure_note.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="51" selection-start="147" selection-end="147" vertical-scroll-proportion="0.11440678">
+        <state line="10" column="169" selection-start="346" selection-end="346" vertical-scroll-proportion="0.20974576">
           <folding />
         </state>
       </provider>
