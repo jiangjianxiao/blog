@@ -27,8 +27,8 @@ cefpython 当前的两个问题
 
 
 .. code-block:: javascript
-	var result = my_method();
 
+	var result = my_method();
 	if (result.success){
 		// process result.result
 
@@ -43,7 +43,7 @@ cefpython 当前的两个问题
 
 * 网页文件是utf-8了
 * 网页已经　 <meta charset="utf-8"/>
-*　application_settings已经传递　 "string_encoding": "utf-8"
+* application_settings已经传递　 "string_encoding": "utf-8"
 * browser_settings已经传递 "default_encoding": "utf-8" 了
 
  此问题报告在 `Strings should be unicode by default, if bytes is required make it explicit <https://code.google.com/p/cefpython/issues/detail?id=60>`_
@@ -51,6 +51,7 @@ cefpython 当前的两个问题
 目前, 你可以选择将参数打包为json字符串, 然后在python端 用以下代码处理
 
  .. code-block:: python
+
  	def my_method(self, data):
  		entity = json.loads(data.decode('utf-8'))
 
