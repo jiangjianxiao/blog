@@ -4,7 +4,7 @@
 :date: 2013-07-15 00:00
 :slug: resume
 
-这是一个定制的小应用文档.
+这是一个定制的小应用文档. 该使用使用cefpython和bootmetro构建， 使用了xlrd/xlwd/xlutils/sqlalchemy等包。
 
 安装
 =====================
@@ -17,8 +17,6 @@
 
 1. xlrd 可能不支持excel 2007 格式
 3. xlrd 无法导入图片
-
-
 
 
 注意事项
@@ -74,5 +72,3 @@
 7. 主界面2
 
 .. image:: /images/index2.png
-    :width: 800
-    :height: 600
