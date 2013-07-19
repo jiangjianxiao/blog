@@ -4,34 +4,31 @@
 :date: 2013-07-15 00:00
 :slug: resume
 
-这是一个定制的小应用文档. 该使用使用cefpython和bootmetro构建， 使用了xlrd/xlwd/xlutils/sqlalchemy等包。
+
+这是一个定制的小应用文档. 该使用使用cefpython和bootmetro构建， 使用了comtypes/pil/sqlalchemy等包。
 
 安装
 =====================
 
 1. 安装visual c++ 2008和2010 运行时
-2. 解压resume.rar 到任一磁盘目录， 双击目录中的client.exe
+2. 解压resume.rar 到任一磁盘目录(注意, 路径应该不能包含中文)， 双击目录中的client.exe
 
-已知问题
-===================
 
-1. xlrd 可能不支持excel 2007 格式
-2. xlrd 无法导入图片
 
 
 注意事项
 ===============
 
-导入的简历文件格式必须同提交给开发者的保持一致， 但也可以client.json的中的MAPPING配置项, 重新配置内容和单位格位置的映射。
-
-在导入时，根据所属单位自动确定所在公司（部门）， 如果所属单位没有找到对应的记录，则会显示在未分类。
+1. 导入的简历文件格式必须同提交给开发者的保持一致， 但也可以通过client.json的中的MAPPING配置项, 重新配置内容和单位格位置的映射。
+2. 在导入时，根据所属单位自动确定所在公司（部门）， 如果所属单位没有找到对应的记录，则会显示在未分类。
+3. 当前，使用comtypes 调用excel, excel 必须安装在目标机器
 
 帮助
 ================================
 
 1. 如果是第一次使用, 会让你输入公司和下级部门(这里部门也可以当子公司概念使用). 后期,可以通过部门维护来维护公司和部门数据. (简称有两个用途,1 是在填写excel简历时,填写者可能写公司缩写, 二是系统在显示时使用简称避免界面上可能的换行)
 
-.. image:: /images/quick_start.png
+.. image:: http://blog.easynew.com.cn/images/quick_start.png
     :width: 800
     :height: 600
 
@@ -47,28 +44,61 @@
 * 创建新简历 - 新简历链接
 * 在主界面中,点击公司或部门会显示该部门及其下级的简历, 通过选择列,可以控制输出的项目, 通过搜索,可以以搜索简历
 
-.. image:: /images/index.png
+.. image:: http://blog.easynew.com.cn/images/index.png
     :width: 800
     :height: 600
 
 3. 点击已存在的简历或点击新简历或选择导入文件后会转向简历页面
 
-.. image:: /images/resume.png
+.. image:: http://blog.easynew.com.cn/images/resume.png
     :width: 800
     :height: 600
 
 4. 部门管理界面
 
-.. image:: /images/department.png
+.. image:: http://blog.easynew.com.cn/images/department.png
     :width: 800
     :height: 600
 
 5. 导入文件夹界面
 
-.. image:: /images/import.png
+.. image:: http://blog.easynew.com.cn/images/import.png
     :width: 800
     :height: 600
 
 7. 主界面2
 
-.. image:: /images/index2.png
+.. image:: http://blog.easynew.com.cn/images/index2.png
+    :width: 800
+    :height: 600
+
+
+更新日志
+=========================
+
+.. rubric:: 2013-7-19
+
+1. fix 选择列增加年龄
+2. 外语及熟练程序 改为外语水平
+3. 新建简历时部门默认为当前选择的部门
+4. 表格离开时，如果数据有改变提示是否保存
+5. 毕业员院校栏长度一致
+6. 打印简历
+7. 导入excel中的图形
+8. 导出简历时同时导出图形
+9. 新建或编辑简历时点击照片更改照片
+10. 增加年龄区间过滤, 均可为空白, 输入后点击搜索按钮
+11. fix 左侧导出没有导出姓名问题
+12. 其他调整
+
+**本次更新通过com调用excel,每次导出,导入均创建一个excel实例, 速度应该比前面版本要慢**
+
+.. rubric:: 部分细节
+
+1. 从excel导入时，如果表一有图形，则会在resume/static/images目录下创建一个图形文件，并将路径传给建立的photo字段
+2. 在新建或编辑简历时，如果选择了一个新图片，则系统会调整该图片大小并在resume/static/images目录生成一个新图形文件
+3. resume/resume.xls 为导出简历时的模板文件，该模板文件的页面设置-缩放 调整为1页宽一页高。
+4. 导出简历时， 系统会将简历导出到 导出建立\部门名目录
+5. 当打印时，系统会根据resume/resume.xls 生成一个临时的excel文件并打印，所以如果对格式不满意，可修改resume/resume.xls 文件
+6. 双面打印的设置同机器有关，需要在自己的机器上设置， 选择 resume/resume.xls 文件，选择打印- 属性-设置双面打印后，保存该文件，关闭。
+
