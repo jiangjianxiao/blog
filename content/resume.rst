@@ -4,7 +4,6 @@
 :date: 2013-07-15 00:00
 :slug: resume
 
-
 这是一个定制的小应用文档. 该使用使用cefpython和bootmetro构建， 使用了comtypes/pil/sqlalchemy等包。
 
 安装
@@ -66,15 +65,31 @@
     :width: 800
     :height: 600
 
-7. 主界面2
+7. 调动历史
 
-.. image:: http://blog.easynew.com.cn/images/index2.png
+.. image:: http://blog.easynew.com.cn/images/transfer.png
     :width: 800
     :height: 600
 
+7. 报告
+
+.. image:: http://blog.easynew.com.cn/images/report.png
+    :width: 800
+    :height: 600
 
 更新日志
 =========================
+
+.. rubric:: 2013-7-20
+
+1. 增加 调动 功能
+2. fix 首页分页问题
+
+调动和移动到的不同： 调动会留下记录， 移动到不留下记录。 可以通过 调动历史 查看调动历史记录
+
+在调动历史页面，点击左侧的部门显示该部门及其下级部门的调出记录，点击导出，导出刷选的记录， 选择一条或多条记录，点击批量删除，删除可能错误的调出记录。 也可以使用顶部的姓名进一步过滤某员工的调出记录
+
+调出如果操作失误可以删除调出历史记录，使用移动到功能复原
 
 .. rubric:: 2013-7-19
 
