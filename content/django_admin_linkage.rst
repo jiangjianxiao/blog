@@ -25,6 +25,7 @@ models.py 中的model 定义
 
     from django.conf import settings
     from django.db import models
+    from django.utils.translation import ugettext as _
 
     COUNTRY = [(key, key) for key in sorted(settings.LOCATION.keys())]
 
@@ -42,6 +43,8 @@ admin.py 的定义
 
     from django import forms
     from django.contrib import admin
+    from django.conf import settings
+    from django.utils.translation import ugettext as _
 
 
     class CompanyAdminForm(forms.ModelForm):

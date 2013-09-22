@@ -6,11 +6,11 @@
     </list>
     <ignored path="blog.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="533b9d67-b438-4821-b797-b32a2fc4ae40" time="1379823530606" ignored="false" />
+    <file path="/Dummy.txt" changelist="533b9d67-b438-4821-b797-b32a2fc4ae40" time="1379825063129" ignored="false" />
     <file path="/clojure_note.rst" changelist="533b9d67-b438-4821-b797-b32a2fc4ae40" time="1372656409908" ignored="false" />
     <file path="/google_docs_note.rst" changelist="533b9d67-b438-4821-b797-b32a2fc4ae40" time="1372572437796" ignored="false" />
     <file path="/my_framework_viewpoint.rst" changelist="533b9d67-b438-4821-b797-b32a2fc4ae40" time="1372578126290" ignored="false" />
-    <file path="/django_admin_linkage.rst" changelist="533b9d67-b438-4821-b797-b32a2fc4ae40" time="1379825010984" ignored="false" />
+    <file path="/django_admin_linkage.rst" changelist="533b9d67-b438-4821-b797-b32a2fc4ae40" time="1379825388415" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +42,7 @@
       <file leaf-file-name="django_admin_linkage.rst" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/content/django_admin_linkage.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="110" column="11" selection-start="2778" selection-end="2778" vertical-scroll-proportion="0.8730351">
+            <state line="27" column="54" selection-start="622" selection-end="622" vertical-scroll-proportion="-0.68681985">
               <folding />
             </state>
           </provider>
@@ -182,6 +182,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../crm" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
@@ -419,7 +420,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/content/django_admin_linkage.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="11" selection-start="2778" selection-end="2778" vertical-scroll-proportion="0.8730351">
+        <state line="27" column="54" selection-start="622" selection-end="622" vertical-scroll-proportion="-0.68681985">
           <folding />
         </state>
       </provider>
