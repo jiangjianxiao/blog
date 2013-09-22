@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="533b9d67-b438-4821-b797-b32a2fc4ae40" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/django_admin_linkage.rst" afterPath="$PROJECT_DIR$/content/django_admin_linkage.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="blog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -13,7 +10,7 @@
     <file path="/clojure_note.rst" changelist="533b9d67-b438-4821-b797-b32a2fc4ae40" time="1372656409908" ignored="false" />
     <file path="/google_docs_note.rst" changelist="533b9d67-b438-4821-b797-b32a2fc4ae40" time="1372572437796" ignored="false" />
     <file path="/my_framework_viewpoint.rst" changelist="533b9d67-b438-4821-b797-b32a2fc4ae40" time="1372578126290" ignored="false" />
-    <file path="/django_admin_linkage.rst" changelist="533b9d67-b438-4821-b797-b32a2fc4ae40" time="1379824291211" ignored="false" />
+    <file path="/django_admin_linkage.rst" changelist="533b9d67-b438-4821-b797-b32a2fc4ae40" time="1379824869962" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +42,7 @@
       <file leaf-file-name="django_admin_linkage.rst" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/content/django_admin_linkage.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="0" selection-start="2547" selection-end="2547" vertical-scroll-proportion="0.9637243">
+            <state line="53" column="0" selection-start="1241" selection-end="1241" vertical-scroll-proportion="0.49214026">
               <folding />
             </state>
           </provider>
@@ -422,7 +419,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/content/django_admin_linkage.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="0" selection-start="2547" selection-end="2547" vertical-scroll-proportion="0.9637243">
+        <state line="53" column="0" selection-start="1241" selection-end="1241" vertical-scroll-proportion="0.49214026">
           <folding />
         </state>
       </provider>

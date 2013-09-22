@@ -45,7 +45,7 @@ admin.py 的定义
 
 
     class CompanyAdminForm(forms.ModelForm):
-        state = MyChoiceField(label=_('State'), required=False)
+        state = forms.ChoiceField(label=_('State'), required=False)
 
         def locations(self):
             import json
