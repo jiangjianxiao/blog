@@ -25,7 +25,9 @@ models.py 中的model 定义
 
     from django.conf import settings
     from django.db import models
+
     COUNTRY = [(key, key) for key in sorted(settings.LOCATION.keys())]
+
 
     class Company(models.Model):
         country = models.CharField(max_length=50, null=True, blank=True, verbose_name=_("Country"), choices=COUNTRY)
@@ -40,24 +42,26 @@ admin.py 的定义
 
     from django import forms
     from django.contrib import admin
+
+
     class CompanyAdminForm(forms.ModelForm):
         state = MyChoiceField(label=_('State'), required=False)
 
-    def locations(self):
-        import json
+        def locations(self):
+            import json
 
-        return json.dumps(settings.LOCATION)
+            return json.dumps(settings.LOCATION)
 
-    def __init__(self, *args, **kwargs):
-        ins = kwargs.get('instance')
-        super(CompanyAdminForm, self).__init__(*args, **kwargs)
-        state = self.fields['state']
+        def __init__(self, *args, **kwargs):
+            ins = kwargs.get('instance')
+            super(CompanyAdminForm, self).__init__(*args, **kwargs)
+            state = self.fields['state']
 
-        if ins and ins.country:
-            state.choices = [(item, item) for item in settings.LOCATION.get(ins.country)]
+            if ins and ins.country:
+                state.choices = [(item, item) for item in settings.LOCATION.get(ins.country)]
 
-    class Meta:
-        model = Company
+        class Meta:
+            model = Company
 
 
     class CompanyAdmin(admin.ModelAdmin):
