@@ -73,7 +73,7 @@ admin.py 的定义
 templates/admin/app/company/change_form.html
 =====================================================
 
-复制原 change_form.html 内容 在合适位置加入（自行写js代码 )
+这里， app 应该替换为你自己的应用名, 在你的templates目录创建该文件，并复制django-admin的原 change_form.html 内容, 在合适位置加入（自行写js代码 )
 
 .. code-block:: javascript
 
