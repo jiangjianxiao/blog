@@ -6,7 +6,7 @@
 :save_as: about-us.html
 
 
-拥有丰富项目开发经验，涉猎过多种语言、平台，目前专注于python/c/javascript/objective-c语言，并关注clojure/nodejs/go。2007年microsoft c# mvp。擅长企业应用开发， 善于捕捉用户需求，为用户快速创建原型产品。
+拥有丰富项目开发经验，涉猎过多种语言、平台，目前专注于python/c/javascript，并关注clojure/nodejs/go/objective-c语言。2007年microsoft c# mvp。擅长企业应用开发， 善于捕捉用户需求，为用户快速创建原型产品。
 
 经历
 ==================
