@@ -38,7 +38,7 @@ DEFAULT_PAGINATION = 6
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
-PLUGIN_PATH = u"pelican-plugins"
+PLUGIN_PATH = ["pelican-plugins"]
 
 PLUGINS = ["sitemap"]
 
