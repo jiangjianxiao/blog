@@ -3,7 +3,6 @@ jvm 互操作笔记
 
 :date: 2014-05-9 09:25
 :slug: jvm-interactive-note
-:status: draft 
 
 当前, 使用java很多时候不可避免, 比方说以下场景
 
