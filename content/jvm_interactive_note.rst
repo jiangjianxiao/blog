@@ -85,7 +85,7 @@ jnius.ByteArray.tostring 没有问题, 是poi workbook.getBytes()有问题, 无�
 
     ms = ByteArrayOutputStream()
     wb.write(ms)
-    ms.toByteArray() # 正确
+    ms.toByteArray()  # 正确
 
 
 
@@ -102,6 +102,7 @@ jzmq
     from java.lang import System
     System.setProperty("java.library.path", "/usr/local/lib")
     print System.getProperty("java.library.path")
+
 
  或 -Djava.library.path="/usr/loca/lib" 
  
