@@ -24,8 +24,7 @@ DISQUS_SITENAME = u"easynew"
 
 LINKS = (('Pelican', 'http://getpelican.com/'),
         ('Python.org', 'http://python.org/'),
-        ('Jinja2', 'http://jinja.pocoo.org/'),
-        ('余姚程序员社区', 'http://www.yuyaoe.com'),)
+        ('Jinja2', 'http://jinja.pocoo.org/'),)
 
 # Social widget
 # SOCIAL = (('You can add links in your config file', '#'),
@@ -36,7 +35,7 @@ DEFAULT_PAGINATION = 6
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
-PLUGIN_PATH = ["pelican-plugins"]
+PLUGIN_PATHS= ["pelican-plugins"]
 
 PLUGINS = ["sitemap"]
 

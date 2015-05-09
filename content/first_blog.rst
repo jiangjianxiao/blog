@@ -25,7 +25,7 @@ ok, 这是我第一篇 pelican blog
 
 pelican-plugins 建议用submodule的方法获取
 
-git submodule git://github.com/getpelican/pelican-plugins.git
+git submodule add git://github.com/getpelican/pelican-plugins.git
 
 然后在其他机器就是git submodule init/git submodule update了
 
