@@ -42,19 +42,17 @@ python 通过 pyzmq 向 .net 的netmq rep发起请求, 初步测试结果如下
 mono 安装
 ============
 
+ubuntu 安装和更新已经非常方便了
 
-
-sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
-echo "deb http://download.mono-project.com/repo/debian wheezy main" | sudo tee /etc/apt/sources.list.d/mono-xamarin.list
-sudo apt-get update
+    sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
+    echo "deb http://download.mono-project.com/repo/debian wheezy main" | sudo tee /etc/apt/sources.list.d/mono-xamarin.list
+    sudo apt-get update
 
 如果是 ubuntu 12.04 tls 不敢升级
 
-echo "deb http://download.mono-project.com/repo/debian wheezy-libtiff-compat main" | sudo tee -a /etc/apt/sources.list.d/mono-xamarin.list
-
-apt-get update
-
-apt-get install mono-complete
+    echo "deb http://download.mono-project.com/repo/debian wheezy-libtiff-compat main" | sudo tee -a /etc/apt/sources.list.d/mono-xamarin.list
+    apt-get update
+    apt-get install mono-complete
 
 mono 调试
 ================
@@ -76,21 +74,20 @@ nuget install 安装包, 在 packages.config 所在目录安装, 并用OutputDir
 * packages.config nuget包文件
 * packages nuget 包文件
 * csproj/sln 项目文件
-* *.cs
-* Properties/*.cs
+* \*.cs
+* Properties/\*.cs
 * packages.config/app.config
-* .settings/*.json visual studio code 配置文件
+* .settings/\*.json visual studio code 配置文件
 
 .gitignore
-
-
+    
     Thumbs.db
-    *.dll
+    \*.dll
     .DS_Store
     packages
     bin
     obj
-    *.userprefs
+    \*.userprefs
 
 
 
