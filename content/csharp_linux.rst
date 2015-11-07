@@ -31,6 +31,14 @@ python 通过 pyzmq 向 .net 的netmq rep发起请求, 初步测试结果如下
 
 所以有个初步的设想是写个简单c#的服务端, 提供excel的导入导出服务, 两者使用zmq req/rep 协议,josn字符串传递, 二进制使用base64编码传递(cpython 2.7的字符串实际上是字节数组, 同.net 的字符串是不一样的)
 
+我的决策
+=============
+
+* 局限服务端编程
+* 不用asp.net mvc/wcf/remoting/wpf等
+* 不用 entity framework
+
+
 
 几个问题
 ===============
@@ -59,6 +67,29 @@ mono 调试
 
 sdb https://github.com/mono/sdb
 
+可以使用
+
+    using System.Diagnostics;
+
+    class Program {
+        
+        public void static Main(string[] args){
+
+            Debugger.Break();
+            // ...
+        }
+    }
+
+
+sdb "run demo.exe"
+
+可用
+
+* r demo.exe 运行demo.exe
+* src 查看源代码
+* step 向下执行
+* frame 
+* quit 等等
 
 
 nuget
