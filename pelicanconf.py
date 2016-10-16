@@ -30,7 +30,7 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 # SOCIAL = (('You can add links in your config file', '#'),
           # ('Another social link', '#'),)
 
-DEFAULT_PAGINATION = 6
+DEFAULT_PAGINATION = 20
 # THEME = 'notmyidea'
 
 # Uncomment following line if you want document-relative URLs when developing

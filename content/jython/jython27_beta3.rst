@@ -32,7 +32,7 @@ pip 需要使用 https://github.com/jimbaker/pip)
 
 .. code-block:: python
 
-    #encoding=utf-8
+    # encoding=utf-8
     import sys
     import time
     if  '__pypy__' in sys.builtin_module_names:

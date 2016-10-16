@@ -69,6 +69,8 @@ sdb https://github.com/mono/sdb
 
 可以使用
 
+.. code-block:: csharp
+
     using System.Diagnostics;
 
     class Program {

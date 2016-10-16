@@ -5,7 +5,7 @@ cefpython 当前的两个问题
 :slug: cefpython_issues
 
 
-最近, 使用cefpython 写 `yarder.co <http://www.yarder.co>`_ 的客户端, 使用的是 cefpython和 bootmetro. 主要发现这两个问题, 写下来供大家选择cefpython 时参考.
+最近, 使用cefpython 写 yarder.co  的客户端, 使用的是 cefpython和 bootmetro. 主要发现这两个问题, 写下来供大家选择cefpython 时参考.
 
 首先是 当js调用python时, python的异常不会传播到javascript. 这个问题参考 `Throw JS / Python exceptions according to execution context <https://code.google.com/p/cefpython/issues/detail?id=11>`_
 

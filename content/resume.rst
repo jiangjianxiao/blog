@@ -27,9 +27,10 @@
 
 1. 如果是第一次使用, 会让你输入公司和下级部门(这里部门也可以当子公司概念使用). 后期,可以通过部门维护来维护公司和部门数据. (简称有两个用途,1 是在填写excel简历时,填写者可能写公司缩写, 二是系统在显示时使用简称避免界面上可能的换行)
 
-.. image:: http://blog.easynew.com.cn/images/quick_start.png
+.. image:: /images/quick_start.png
     :width: 800
     :height: 600
+    :alt: quick_start
 
 2. 进入主界面. 这个界面完成主要的功能
 
@@ -43,39 +44,45 @@
 * 创建新简历 - 新简历链接
 * 在主界面中,点击公司或部门会显示该部门及其下级的简历, 通过选择列,可以控制输出的项目, 通过搜索,可以以搜索简历
 
-.. image:: http://blog.easynew.com.cn/images/index.png
+.. image:: /images/index.png
     :width: 800
     :height: 600
+    :alt: index
 
 3. 点击已存在的简历或点击新简历或选择导入文件后会转向简历页面
 
-.. image:: http://blog.easynew.com.cn/images/resume.png
+.. image:: /images/resume.png
     :width: 800
     :height: 600
+    :alt: resume
 
 4. 部门管理界面
 
-.. image:: http://blog.easynew.com.cn/images/department.png
+.. image:: /images/department.png
     :width: 800
     :height: 600
+    :alt: department
 
 5. 导入文件夹界面
 
-.. image:: http://blog.easynew.com.cn/images/import.png
+.. image:: /images/import.png
     :width: 800
     :height: 600
+    :alt: import
 
 7. 调动历史
 
-.. image:: http://blog.easynew.com.cn/images/transfer.png
+.. image:: /images/transfer.png
     :width: 800
     :height: 600
+    :alt: transfer
 
 7. 报告
 
-.. image:: http://blog.easynew.com.cn/images/report.png
+.. image:: /images/report.png
     :width: 800
     :height: 600
+    :alt: report
 
 更新日志
 =========================
