@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'jjx'
 SITENAME = u'EasyNew'
-SITEURL = 'http://blog.easynew.com.cn'
+SITEURL = 'http://www.easynew.com.cn'
 # GITHUB_URL = "https://github.com/jiangjianxiao/"
 TIMEZONE = 'Asia/Shanghai'
 DISPLAY_PAGES_ON_MENU = False
